@@ -1,0 +1,72 @@
+* {
+    margin :0;
+    padding :0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 70%;
+    font-family: sans-serif;
+}
+div,section,span,a,ul,li,header{
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+#menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 70vh;
+    position: relative;
+}
+#home{
+background-color: bisque;
+
+}
+#about{
+    background-color:#E8A0BF;
+
+}
+#product{
+    background-color: blanchedalmond;
+
+}
+#pricing{
+    background-color: #FCC5C0;
+
+}
+#contact{
+    background-color: azure;
+
+}
+h1{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: larger;
+   
+    color: green;
+}
+

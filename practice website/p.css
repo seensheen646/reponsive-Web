@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+html{
+    scroll-behavior: smooth;
+}
+div,section,header,a,ul,li{
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+section{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+
+}
+#home{
+    background-color: pink;
+}
+#about{
+    background-color:paleturquoise;
+}
+#product{
+    background-color:powderblue;
+}
+#pricing{
+    background-color: peachpuff;
+}
+#contact{
+    background-color: plum;
+}
+h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: green;
+}
